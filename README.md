@@ -12,6 +12,8 @@ the list will Also store the list of inputs the scrapy needs for example if a sc
 
 Scrapy inputs and putputs have the ability to be chained.
 
+A type of spider may be a auth spider who provide with  login detials as input logins in and returns cookies and session information.
+
 Another example would be a genric spider that looks for contact if from html.
 
 All variables of a spider can be changed form the UI.
@@ -21,3 +23,10 @@ If the website is rendered in javascript automically configure spider to send re
 add xpaths and the name of the data they will return and type.
 example list, string, number, link
 Create A alogrithm to determine the most accruate xpath for data accross pages.
+
+Libaries used
+Front end
+GoJs = https://www.youtube.com/watch?v=7cfHF7yAoJE
+Back end
+scrapy framework
+
